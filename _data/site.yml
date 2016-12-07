@@ -1,0 +1,9 @@
+- name: О премии
+  link: /about/
+- name: Лауреаты
+  link: /winners/
+- name: Номинации
+  link: /categories/
+- name: Жюри
+  link: /jury/
+
