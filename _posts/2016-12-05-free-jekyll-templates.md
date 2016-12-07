@@ -1,7 +1,7 @@
 ---
 title: 7 Free Jekyll Templates
-header: 7 Free Jekyll Templates
-category: Announcements
+header: Приглашаем принять участие
+category: Объявления
 post_image: /img/blog/7-free-jekyll-templates/frisco1.png
 post_image_type: image/png
 post_image_width: 1600
