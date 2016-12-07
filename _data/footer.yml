@@ -3,10 +3,6 @@
   links:
   - name: О премии
     link: /about/
-  - name: Номинации
-    link: /categories/
-  - name: Жюри
-    link: /jury/
   - name: Лауреаты
     link: /winners/
 - title: Дополнительно
