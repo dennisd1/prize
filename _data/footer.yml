@@ -9,12 +9,8 @@
   links:
   - name: Партнеры Премии
     link: /partners_list/
-  - name: Freebies
-    link: /freebies/
-  - name: Press
+  - name: Пресса
     link: /press/
-  - name: Contact
-    link: /contact/
 - title: Ресурсы
   links:
   - name: Facebook
