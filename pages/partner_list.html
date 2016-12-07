@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /partner-list/
+title: Case Studies
+description: Learn how great companies use CloudCannon, the source control backed, Jekyll CMS for developers working with non-developers.
+header: Партнеры премии
+header_subtext: Learn how great companies use CloudCannon
+---
+{% assign leaders = site.leaders | sort: 'sortpartnerkey' %}
+	{% for leader in leaders %}
+		{% if leader.heroprofile.heropartner == true %}
+		{% assign ename = leader.profile.ename %}
+		{% assign heroimg = "/a/" | append: ename | append: "01" | append: ".jpg" %}
+		<section>
+			<div class="blog-post">
+				<div class="post-author-big">
+					<img src="{{ heroimg }}" alt="A stunning photo of {{ author[0].name }}" width="400" height="400">
+						<h3>{{ leader.profile.secondname }} {{ leader.profile.firstname }} {{ leader.profile.lastname }}</h3>
+		                                <p class="post-details">{{ leader.heroprofile.heroaward }} &emsp; <a href="{{ leader.url }}" class="btn small-btn">Подробнее  &rarr;</a></p>
+					</div>
+			</div>
+		<section>
+		{% endif %}
+	{% endfor %}
+
+<section class="bright-section centered">
+	<div class="container">
+		<h2>Use CloudCannon on your next site</h2>
+		<p><a href="https://app.cloudcannon.com/users/sign_up" class="btn btn-primary btn-large btn-block btn-centered">Sign up free</a></p>
+	</div>
+</section>

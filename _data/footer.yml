@@ -1,0 +1,40 @@
+
+- title: Премия
+  links:
+  - name: О премии
+    link: /about/
+  - name: Номинации
+    link: /categories/
+  - name: Жюри
+    link: /jury/
+  - name: Лауреаты
+    link: /winners/
+- title: Дополнительно
+  links:
+  - name: About
+    link: /about/
+  - name: Freebies
+    link: /freebies/
+  - name: Press
+    link: /press/
+  - name: Contact
+    link: /contact/
+- title: Ресурсы
+  links:
+  - name: Facebook
+    link: https://www.facebook.com/gosprize
+    social_icon: facebook
+    new_window: true
+  - name: YouTube
+    link: https://www.youtube.com/c/CloudCannon
+    social_icon: youtube
+    new_window: true
+- title: Сообщество
+  links:
+  - name: Войти
+    link: http://corp.vot.expert
+    class: sign-up
+  - name: Email
+    link: mailto:info@gosprize.ru
+    new_window: true
+
