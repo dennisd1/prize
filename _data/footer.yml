@@ -26,13 +26,13 @@
     social_icon: facebook
     new_window: true
   - name: YouTube
-    link: https://www.youtube.com/c/CloudCannon
+    link: https://www.youtube.com/channel/UCP0WTKGv4kdqx8MSGMMyv5Q
     social_icon: youtube
     new_window: true
 - title: Сообщество
   links:
   - name: Войти
-    link: http://corp.vot.expert
+    link: http://corp.vot.expert/login
     class: sign-up
   - name: Email
     link: mailto:info@gosprize.ru
