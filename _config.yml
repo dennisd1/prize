@@ -46,9 +46,9 @@ collections:
     name: Authors
     output: false
   customers:
-    name: Case Studies
+    name: Partners
     output: true
-    permalink: /case-studies/:name/
+    permalink: /partners/:name/
 defaults:
   - scope:
       path: ""
