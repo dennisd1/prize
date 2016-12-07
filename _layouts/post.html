@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<section>
+	<div class="container post-container text-container">
+		<p class="post-details"><a href="/blog">Blog</a> | {{ page.category }} | {{ page.header }} <span class="date">{{ page.date | date: "%B %d, %Y" }}</span></p>
+		{{ content | split:'<!-- excerpt stop -->' | last }}
+
+		<hr>
+		<div class="share-options">
+				{% assign url = page.url | prepend: site[jekyll.environment].url | cgi_escape %}
+				<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
+						{% include social-icon.html social_icon="facebook" %} Share
+				</a><a class="share-btn twitter" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&amp;text={{ page.title | markdownify | strip_html | cgi_escape }}%20on%20{{ site.title | cgi_escape }}&amp;via=CloudCannonApp" target="_blank">
+						{% include social-icon.html social_icon="twitter" %} Tweet
+				</a><a class="share-btn google-plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank">
+						{% include social-icon.html social_icon="google-plus" %} Share
+				</a>
+		</div>
+
+		<section class="centered blog-cta">
+			<div class="container">
+				<h3>Keep up to date with CloudCannon articles, tutorials, templates and other Jekyll news</h3>
+				<p><a href="http://eepurl.com/bOepo5" class="btn btn-primary btn-large btn-block btn-centered">Subscribe</a></p>
+			</div>
+		</section>
+
+		{% if page.author %}
+			{% assign author = site.authors | where: "author", page.author | first %}
+			{% if author %}
+				<div class="post-author clearfix">
+					<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
+					<p><a target="_blank" href="https://twitter.com/{{ author.twitter_username }}">{{ author.name }}</a> {{ author.bio }}</p>
+				</div>
+			{% endif %}
+		{% endif %}
+
+		{% include disqus.html %}
+	</div>
+</section>

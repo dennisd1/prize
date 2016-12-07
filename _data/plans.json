@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Basic",
+		"price": "$25"
+	},
+	{
+		"name": "Agency",
+		"price": "$75"
+	},
+	{
+		"name": "Enterprise",
+		"price": "$125"
+	}
+]
