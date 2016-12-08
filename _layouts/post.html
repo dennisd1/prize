@@ -12,7 +12,7 @@ layout: default
 				{% assign url = page.url | prepend: site[jekyll.environment].url | cgi_escape %}
 				<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
 						{% include social-icon.html social_icon="facebook" %} Поделиться
-				</a><a class="share-btn google-plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank">
+				</a><a class="share-btn google-plus" href="mailto:?subject={{ site.url }}{{ page.url }}" target="_blank">
 						{% include social-icon.html social_icon="google-plus" %} Поделиться
 				</a>
 		</div>
@@ -20,11 +20,11 @@ layout: default
 		<section class="centered blog-cta">
 			<div class="container">
 				<h3>Будьте в курсе новостей Национальной премии</h3>
-				<p><a href="http://eepurl.com/bOepo5" class="btn btn-primary btn-large btn-block btn-centered">Подписаться</a></p>
+				<p><a href="http://corp.vot.expert/login" class="btn btn-primary btn-large btn-block btn-centered">Подписаться</a></p>
 			</div>
 		</section>
 
-		{% if page.author %}
+		<!--{% if page.author %}
 			{% assign author = site.authors | where: "author", page.author | first %}
 			{% if author %}
 				<div class="post-author clearfix">
@@ -32,7 +32,7 @@ layout: default
 					<p><a target="_blank" href="https://twitter.com/{{ author.twitter_username }}">{{ author.name }}</a> {{ author.bio }}</p>
 				</div>
 			{% endif %}
-		{% endif %}
+		{% endif %}-->
 
 	</div>
 </section>
