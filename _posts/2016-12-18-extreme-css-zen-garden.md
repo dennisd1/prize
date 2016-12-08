@@ -1,7 +1,7 @@
 ---
 title: Extreme CSS Zen Garden
-header: Extreme CSS Zen Garden
-category: Tips
+header: В Росимуществе прошла церемония вручения Национальной премии по управлению государственной собственностью
+category: Пресс-релиз
 author: rosim
 permalink: /tips/2016/12/18/extreme-css-zen-garden.html
 ---
