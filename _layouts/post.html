@@ -4,7 +4,7 @@ layout: default
 
 <section>
 	<div class="container post-container text-container">
-		<p class="post-details"><a href="/blog">Blog</a> | {{ page.category }} | {{ page.header }} <span class="date">{{ page.date | date: "%B %d, %Y" }}</span></p>
+		<p class="post-details"><a href="/blog">Новости</a> | {{ page.category }} | {{ page.header }} <span class="date">{{ page.date | date: "%B %d, %Y" }}</span></p>
 		{{ content | split:'<!-- excerpt stop -->' | last }}
 
 		<hr>
@@ -21,7 +21,7 @@ layout: default
 
 		<section class="centered blog-cta">
 			<div class="container">
-				<h3>Keep up to date with CloudCannon articles, tutorials, templates and other Jekyll news</h3>
+				<h3>Будьте в курсе новостей Национальной премии</h3>
 				<p><a href="http://eepurl.com/bOepo5" class="btn btn-primary btn-large btn-block btn-centered">Subscribe</a></p>
 			</div>
 		</section>
@@ -36,6 +36,5 @@ layout: default
 			{% endif %}
 		{% endif %}
 
-		{% include disqus.html %}
 	</div>
 </section>
