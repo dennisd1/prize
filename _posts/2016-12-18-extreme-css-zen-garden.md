@@ -6,29 +6,19 @@ author: rosim
 permalink: /tips/2016/12/18/press-release.html
 ---
 
-Something occurred to me the other day. <span class="url">&lt;title&gt;</span> and <span class="url">&lt;meta&gt;</span> tags are in the DOM so you must be able to style them like any other element. So I set up a really basic example and put a width, height and background on a meta tag and sure enough, a blue box appeared in my browser.
+Первая Национальная премия по управлению государственной собственностью организована на некоммерческой основе Экспертно-консультационным советом при Росимуществе.  
 
-From there I thought what can I create using only a basic HTML5 boilerplate, kind of like an extreme version of [CSS Zen Garden](http://www.csszengarden.com/). So I started with this:
+В состав жюри премии вошли члены комитетов Экспертно-консультационного совета при Росимуществе, профильных общественных объединений и саморегулируемых организаций.
 
-{% highlight html %}
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Extreme CSS Garden</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body></body>
-</html>
-{% endhighlight %}
+Премия вручалась в четырех номинациях:
 
-Then put my CSS skills to work.
+«Арбитражный управляющий года»;
+«Директор года»;
+«Эффективная ревизионная деятельность»;
+«Юридическая победа года».
 
-It was absolute madness, everything I thought I knew about web design suddenly shattered. I gave a font-size to <span class="url">&lt;title&gt;</span>, content to <span class="url">&lt;meta&gt;</span> and a background image to <span class="url">&lt;link&gt;</span>.
 
-Here's my [end result](http://cyan-accordion.cloudvent.net/index.html):
-
-[<img src="/img/blog/css-garden/css-garden.png" alt="extreme css zen garden">](http://cyan-accordion.cloudvent.net/index.html)
+[<img src="/a/rosim2016.jpg" alt="extreme css zen garden">](http://cyan-accordion.cloudvent.net/index.html)
 
 And the CSS to go with that.
 
