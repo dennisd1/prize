@@ -1,6 +1,6 @@
 ---
 image_path: /a/rosim.jpg
-twitter_username: n00begon
+twitter_username: rosim
 author: rosim
 name: Росимущество
 bio: "ФАУГИ"
