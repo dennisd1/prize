@@ -1,7 +1,7 @@
 ---
-image_path: /img/authors/tim.jpg
+image_path: /a/rosim.jpg
 twitter_username: n00begon
-author: tim
-name: Tim Neumegen
-bio: "is fascinated by technology and history."
+author: rosim
+name: Росимущество
+bio: "ФАУГИ"
 ---
