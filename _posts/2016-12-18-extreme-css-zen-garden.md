@@ -1,9 +1,9 @@
 ---
-title: Extreme CSS Zen Garden
+title: В Росимуществе прошла церемония вручения Национальной премии по управлению государственной собственностью
 header: В Росимуществе прошла церемония вручения Национальной премии по управлению государственной собственностью
 category: Пресс-релиз
 author: rosim
-permalink: /tips/2016/12/18/extreme-css-zen-garden.html
+permalink: /tips/2016/12/18/press-release.html
 ---
 
 Something occurred to me the other day. <span class="url">&lt;title&gt;</span> and <span class="url">&lt;meta&gt;</span> tags are in the DOM so you must be able to style them like any other element. So I set up a really basic example and put a width, height and background on a meta tag and sure enough, a blue box appeared in my browser.
