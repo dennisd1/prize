@@ -20,199 +20,34 @@ permalink: /tips/2016/12/18/press-release.html
 
 [<img src="/a/rosim2016.jpg" alt="extreme css zen garden">](http://cyan-accordion.cloudvent.net/index.html)
 
-And the CSS to go with that.
+С приветственным словом к организаторам и участникам церемонии обратился руководитель Росимущества Дмитрий Пристансков.
 
-{% highlight css %}
-html {
-    font-family: Helvetica, Arial, sans-serif;
-    height: 100%;
-    background: #eee;
-}
+Дмитрий Пристансков отметил вклад Экспертно-консультационного совета при Росимуществе в повышение эффективности и прозрачности управления государственным имуществом. Результатом работы совета за прошедшие годы стали экспертные заключения и методические рекомендации по различным направлениям деятельности агентства, многие из которых в дальнейшем были направлены в Правительство РФ и Минэкономразвития России.
 
-head, title, meta, link {
-    display: block;
-}
+В настоящее время большая работа ведется в части предотвращения банкротств предприятий с государственным участием. В рамках премии по управлению государственной собственностью отмечен ряд арбитражных управляющих - экспертов, которые сумели сохранить организации с государственным участием.
 
-title {
-    font-size: 5em;
-    padding: 20px 0;
-}
+«Государство прикладывает большие усилия по защите имущественных интересов. Сегодня в зале присутствуют те, кто в сложных многолетних судебных процессах активно отстаивал интересы государства. Мы рады отметить эту работу в номинации «Юридическая победа года»», - подчеркнул Дмитрий Пристансков.
 
-title, meta {
-    text-align: center;
-    color: #fff;
-}
+Отдельное направление - ревизионные комиссии - ключевой орган контроля в деятельности общества.  «Росимущество рассчитывает на профессиональную работу экспертов. Недавно в агентстве прошли заседания Комиссии по отбору профессиональных директоров и независимых экспертов на избрание в составы ревизионных комиссий обществ Спецперечня, утвержденного Распоряжением Правительства Российской Федерации. И мы с радостью для себя отметили большое количество профессионалов отрасли. Вам отдельное большое спасибо», - сказал Дмитрий Пристансков.  
 
-meta {
-    font-style: italic;
-}
+На церемонии вручения Национальной премии по управлению государственной собственностью дипломами были награждены 29 номинантов.
 
-meta::before {
-    content: "This is almost a legitimate website";
-}
+В номинации «Юридическая победа года» жюри оценивало судебные дела по защите государственной собственности: возврат имущества в государственную собственность или собственность компании с государственным участием. Дипломом номинанта была отмечена Татьяна Пономарева за защиту имущественных интересов Российской Федерации в делах, связанных с признанием права собственности на земельные участки отсутствующим.
 
-link {
-    width: 100px;
-    height: 100px;
-    margin: 20px auto;
-    background: url(https://en.gravatar.com/avatar/56b658c5d0c89b95f635fb94dc536594?s=100&d=mm);
-    background-size: contain;
-    border: 2px solid #fff;
-    border-radius: 60px;
-}
+Национальная премия по управлению государственной собственностью в категории госкомпаний была присуждена юридическому департаменту ПАО «РусГидро». 
 
-head {
-    background: #222;
-    border-bottom: 1px dotted #aaa;
-}
+Дипломом лауреата было отмечено Управление правового обеспечения и судебной защиты Росимущества (судебный спор по вопросу «золотых парашютов» ПАО Ростелеком). Дипломами номинантов в категории «Арбитражный управляющий года» за заслуги арбитражных управляющих, обеспечивших сохранность предприятий с государственным участием и рабочих мест, были отмечены Юлия Устимова и Анатолий Селищев. Лауреатами премии стали Александр Петров и Виктор Костомаров (ведение процедуры банкротства АО «Балтийский завод»).
 
-body {
-    text-align: center;
-    font-size: 1.5em;
-}
+Номинантами премии в номинации «Эффективная ревизионная деятельность» стали Олег Дранко и Наталия Анникова (за руководство ревизионной комиссией ОАО "РЖД").  Дипломом лауреата была отмечена ревизионная комиссия "ОРКК" за командную работу под руководством независимого эксперта Александра Полтавцева, эффективное взаимодействие с профильными подразделениями Росимущества и ГК «Роскосмос», выработку рекомендаций, направленных на повышение эффективности деятельности, позволивших минимизировать существенные правовые риски. Дипломом лауреата отмечена ревизионная комиссия ПАО «АЭРОФЛОТ» за организацию эффективной работы и взаимодействие с менеджментом и структурными подразделениями компании.
 
-body::before {
-    content: "I'm going to take a stab and say CSS content isn't exactly search engine friendly.";
-}
-{% endhighlight %}
+Национальная премия по управлению государственной собственностью была присуждена ревизионной комиссии ОАО «Мосхимфармпрепараты им. Семашко» в составе Ольги Трегубенко, Александра Чиликова и Станислава Сафина, предотвративших банкротство предприятия.
 
-I did a 90s version too:
+В номинации «Директор года» рассматривалась деятельность руководителей, обеспечивших существенный и стабильный рост финансовых показателей компаний с государственным участием в 2014-2015 гг.
 
-[<img src="/img/blog/css-garden/css-garden-2.png" alt="extreme css zen garden">](http://cyan-accordion.cloudvent.net/index2.html)
+В категории предприятий с выручкой до 1 млрд руб. для предприятий, не относящихся к предприятиям военно-промышленного комплекса (ВПК), дипломом номинанта был отмечен Дмитрий Кобзев - генеральный директор Новосибирского Аффинажного завода. Национальная премия по управлению государственной собственностью в категории предприятий с выручкой до 1 млрд руб. была присуждена Ваге Петросяну - генеральному директору АО «Архангельский аэропорт».
 
-See the [actual website](http://cyan-accordion.cloudvent.net/index2.html) for the full epileptic goodness.
+В категории от 10 до 100 млрд руб. для предприятий, не относящихся к ВПК, номинантом премии был признан Максим Шкадов - генеральный директор ОАО «ПО «Кристалл». Национальная премия по управлению государственной собственностью в этой категории была вручена Олегу Седельникову - генеральному директору ПАО «Машиностроительный завод».
 
-CSS:
+В категории предприятий ВПК с выручкой от 10 до 100 млрд руб. Национальная премия по управлению государственной собственностью присуждена Михаилу Будниченко - генеральному директору ОАО «ПО «Севмаш». В категории более 100 млрд руб. для предприятий ВПК премия присуждена Игорю Озару - генеральному директору ПАО «Компания «Сухой».
 
-{% highlight css %}
-html {
-    font-family: Helvetica, Arial, sans-serif;
-    height: 100%;
-    background-color: red;
-    -webkit-animation: bganimation 5s infinite alternate; /* Chrome, Safari, Opera */
-    animation: bganimation 5s infinite alternate;
-    text-align: center;
-}
-
-html::after {
-    content: url(http://31.media.tumblr.com/tumblr_m9dg70itF41ru71nxo1_100.gif);
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes bganimation {
-    0%   {background: red;}
-    25%  {background: yellow;}
-    50%  {background: blue;}
-    100% {background: green;}
-}
-
-/* Standard syntax */
-@keyframes bganimation {
-    0%   {background: red;}
-    25%  {background: yellow;}
-    50%  {background: blue;}
-    100% {background: green;}
-}
-
-head, title, meta, link {
-    display: block;
-}
-
-title {
-    font-size: 4em;
-    font-weight: bold;
-    text-decoration: underline;
-    background: yellow;
-}
-
-title:hover {
-    background: green;
-}
-
-@keyframes blink {
-    to {
-        visibility: hidden;
-    }
-}
-
-@-webkit-keyframes blink {
-    to {
-        visibility: hidden;
-    }
-}
-
-title::before {
-    content: url(http://static.tumblr.com/x17glcz/T5dmizmm4/ani.businessman2.gif);
-}
-
-title::after {
-    content: url(http://33.media.tumblr.com/53c9c25e44646f7dff7684214ca28e88/tumblr_mgfh7uvmEo1ru71nxo1_250.gif);
-}
-
-meta {
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-animation: metaanimation 5s infinite alternate; /* Chrome, Safari, Opera */
-    animation: metaanimation 5s infinite alternate;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes metaanimation {
-    0%   {left: 400px; top: 250px;}
-    25%  {left: 0px; top: 400px;}
-    50%  {left:250px; top: 250px;}
-    100% {left: 500px; top: 300px;}
-}
-
-/* Standard syntax */
-@keyframes metaanimation {
-    0%   {left: 400px; top: 250px;}
-    25%  {left: 0px; top: 400px;}
-    50%  {left:250px; top: 250px;}
-    100% {left: 500px; top: 300px;}
-}
-
-meta::after {
-    content: url(http://www.animatedgif.net/underconstruction/anim0206-1_e0.gif);
-}
-
-link {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    -webkit-animation: linkanimation 10s infinite alternate; /* Chrome, Safari, Opera */
-    animation: linkanimation 10s infinite alternate;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes linkanimation {
-    0%   {bottom: 400px; right: 250px;}
-    10%  {bottom: 0px; right: 400px;}
-    65%  {bottom:250px; right: 250px;}
-    100% {bottom: 500px; right: 300px;}
-}
-
-/* Standard syntax */
-@keyframes linkanimation {
-    0%   {bottom: 400px; right: 250px;}
-    10%  {bottom: 0px; right: 400px;}
-    65%  {bottom:250px; right: 250px;}
-    100% {bottom: 500px; right: 300px;}
-}
-
-link::after {
-    content: url(http://www.animatedgif.net/underconstruction/const_e0.gif);
-}
-
-body::before{
-    content: url(http://s3-ec.buzzfed.com/static/2013-10/enhanced/webdr05/15/9/anigif_enhanced-buzz-26358-1381845043-13.gif);
-}
-{% endhighlight %}
-
-
-
-#### So is this going to change the way we do web design?
-Well...**no** but I think it's still a good exercise because it's so constraining. You have to use every CSS trick in the book.
-
-Give it a go yourself, start with the HTML above and see what you can create. Post back here if you make something cool, I’d love to see what’s possible.
+В категории более 100 млрд руб. для предприятий, не относящихся к ВПК, Национальная премия по управлению государственной собственностью в номинации «Директор года» присуждена Борису Ковальчуку - председателю Правления ПАО «ИнтерРАО».
