@@ -13,7 +13,7 @@
 	},
 	"Росимущество2": {
 		"name": "Организатор",
-		"описание": "http://www.rosim.ru",
+		"address": "http://www.rosim.ru",
 		"сайт": "CloudCannon/cause-jekyll-template",
 		"description": "📱&nbsp; Not for profit template for Jekyll",
 		"features": [
