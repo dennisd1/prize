@@ -12,7 +12,7 @@
 		"hidden": true
 	},
 	"cause": {
-		"name": "Cause",
+		"name": "Организатор",
 		"описание": "https://clean-oryx.cloudvent.net",
 		"сайт": "CloudCannon/cause-jekyll-template",
 		"description": "📱&nbsp; Not for profit template for Jekyll",
