@@ -1,9 +1,9 @@
 {
 	"aviator": {
-		"name": "Aviator",
+		"name": "Росимущество",
 		"address": "https://tangerine-lemon.cloudvent.net",
 		"githubRepo": "CloudCannon/aviator-jekyll-template",
-		"description": "💧&nbsp; API Documentation template for Jekyll",
+		"description": "📱&nbsp; API Documentation template for Jekyll",
 		"features": [
 			"Three column layout",
 			"Full text search",
@@ -13,9 +13,9 @@
 	},
 	"cause": {
 		"name": "Cause",
-		"address": "https://clean-oryx.cloudvent.net",
-		"githubRepo": "CloudCannon/cause-jekyll-template",
-		"description": "🌷&nbsp; Not for profit template for Jekyll",
+		"описание": "https://clean-oryx.cloudvent.net",
+		"сайт": "CloudCannon/cause-jekyll-template",
+		"description": "📱&nbsp; Not for profit template for Jekyll",
 		"features": [
 			"Configurable footer",
 			"Donorbox",
