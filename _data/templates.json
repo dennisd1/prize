@@ -1,7 +1,7 @@
 {
 	"aviator": {
 		"name": "Росимущество",
-		"address": "https://tangerine-lemon.cloudvent.net",
+		"address": "http://www.rbc.ru",
 		"githubRepo": "CloudCannon/aviator-jekyll-template",
 		"description": "📱&nbsp; API Documentation template for Jekyll",
 		"features": [
@@ -13,11 +13,11 @@
 	},
 	"Росимущество2": {
 		"name": "Организатор",
-		"описание": "https://clean-oryx.cloudvent.net",
+		"описание": "http://www.rosim.ru",
 		"сайт": "CloudCannon/cause-jekyll-template",
 		"description": "📱&nbsp; Not for profit template for Jekyll",
 		"features": [
-			"Configurable footer",
+			"конфигурируемыйConfigurable footer",
 			"Donorbox",
 			"MailChimp"
 		]
