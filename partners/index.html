@@ -29,9 +29,9 @@ share_text: Free HTML5 templates for your next site
 			{% for template in site.data.templates %}
 				{% unless template[1].hidden %}
 					<li class="{{ template[0] }}">
-						<h1>{{ template[1].name }}</h1>
+						<h2>{{ template[1].name }}</h2>
 						<div class="banner">
-							<iframe src="http://www.rbc.ru" scrolling="no" width=650px height=300px></iframe>
+							<iframe src={ template[1].website } scrolling="no" width=650px height=300px></iframe>
 						</div>
 
 						<div class="details">
