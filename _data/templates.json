@@ -24,7 +24,7 @@
 	},
 	"edition": {
 		"name": "Edition",
-		"address": "https://long-pig.cloudvent.net",
+		"address": "https://brave-submarine.cloudvent.net",
 		"githubRepo": "CloudCannon/edition-jekyll-template",
 		"description": "🎓&nbsp; Product documentation template for Jekyll",
 		"features": [
